@@ -1,9 +1,8 @@
 source "https://rubygems.org"
+gemspec
 
-gem 'bundler'
-gem 'jekyll'
-gem 'jekyll-paginate'
+gem "jekyll-github-metadata", ">= 2.15"
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "jekyll-include-cache", group: :jekyll_plugins
 
+gem "html-proofer", "~> 5.0", :group => :development
