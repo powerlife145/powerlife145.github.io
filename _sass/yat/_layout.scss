@@ -17,7 +17,8 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          color: #fff;
+          color: $banner-text-color;
+          height: 300px;
           transition: 0.1s color;
         }
 
@@ -632,6 +633,7 @@ html {
         margin-bottom: 0.1em;
         font-weight: normal;
         transition: 0.2s all;
+        text-align: right;
 
         @include media-query($on-palm) {
           @include relative-font-size(1.975);
@@ -639,9 +641,10 @@ html {
       }
 
       > :nth-child(2) {
-        font-weight: lighter;
+        //font-weight: lighter;
         margin-bottom: 0.8em;
         transition: 0.2s all;
+        color: $banner-text-color;
 
         @include media-query($on-palm) {
           @include relative-font-size(1.175);
@@ -655,7 +658,7 @@ html {
 
     .post-subtitle {
       @include relative-font-size(1.525);
-      color: #ffffffcc;
+      color: $banner-text-color;
       padding-right: 280px;
 
       @include media-query($on-palm) {
@@ -664,8 +667,8 @@ html {
     }
 
     .post-meta {
-      color: #ffffffcc;
-      padding-bottom: 1em;
+      color: $banner-text-color;
+      //padding-bottom: 1em;
     }
 
     .left-vsplit:before {
@@ -685,7 +688,7 @@ html {
         display: inline-block;
         text-decoration: none;
         margin: 9px 12px 0 0;
-        color: #fff;
+        color: $banner-text-color;
 
         &:hover {
           text-decoration: underline;
