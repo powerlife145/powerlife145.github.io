@@ -8,7 +8,7 @@ banner:
   image: /assets/images/til.jpeg
 ---
 
-## 2023.06.02 TIL
+## 2023.09.12 TIL
 
 TIL(today i learning)을 매일 써본 적이 없지만 이 기회에 루틴으로 박아두고 싶습니다. 그러나 이미 하루가 지났고 하루에 이틀치를 올릴려고 합니다.
 
